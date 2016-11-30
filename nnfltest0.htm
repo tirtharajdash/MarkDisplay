@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body bgcolor="Beige" oncontextmenu="return false">
+
+<h2><center>NNFL Pre-Compre Marks</center></h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for BITSID for your marks along with a proper view of the Highest and Average marks" title="Type in your ID">
+
+<table id="myTable" >
+  <tr class="header">
+    <th style="width:20%;">BITSID</th>
+    <th style="width:30%;">Name</th>
+	<th style="width:10%;">CT1(10)</th>
+	<th style="width:10%;">T1(50)</th>
+	<th style="width:10%;">T2(40)</th>
+	<th style="width:10%;">Quiz(20)</th>
+	<th style="width:10%;">Compre(80)</th>
+	<th style="width:10%;">Total(200)</th>
+  </tr>
+  <tr>
+	<td>2013A3A7198G</td>
+	<td>MASCARENHAS EDWIN FREMIOT .</td>
+	<td>10</td>
+	<td>42</td>
+	<td>22</td>
+	<td>16</td>
+	<td>NA</td>
+	<td>90</td>
+	</tr>
+	<tr>
+	<td>2013A7PS006G</td>
+	<td>BHAARGAV S</td>
+	<td>10</td>
+	<td>35</td>
+	<td>12</td>
+	<td>4.5</td>
+	<td>NA</td>
+	<td>61.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS010G</td>
+	<td>JOGI TEJAS DILIP .</td>
+	<td>10</td>
+	<td>37</td>
+	<td>13</td>
+	<td>4</td>
+	<td>NA</td>
+	<td>64</td>
+	</tr>
+	<tr>
+	<td>2013A7PS023G</td>
+	<td>VERMA YASH DEVENDRA .</td>
+	<td>NA</td>
+	<td>8</td>
+	<td>7</td>
+	<td>10.5</td>
+	<td>NA</td>
+	<td>25.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS036G</td>
+	<td>MUDIT DANGI .</td>
+	<td>NA</td>
+	<td>28</td>
+	<td>13</td>
+	<td>1</td>
+	<td>NA</td>
+	<td>42</td>
+	</tr>
+	<tr>
+	<td>2013A7PS057G</td>
+	<td>AKSHAY DAMLE .</td>
+	<td>10</td>
+	<td>39</td>
+	<td>19</td>
+	<td>8</td>
+	<td>NA</td>
+	<td>76</td>
+	</tr>
+	<tr>
+	<td>2013A7PS065G</td>
+	<td>SUDHINDRA SAJJALGUDDAM .</td>
+	<td>8</td>
+	<td>24</td>
+	<td>13</td>
+	<td>6.5</td>
+	<td>NA</td>
+	<td>51.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS066G</td>
+	<td>SIDDHARTHA SAURAV .</td>
+	<td>9</td>
+	<td>39</td>
+	<td>8</td>
+	<td>4.5</td>
+	<td>NA</td>
+	<td>60.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS067G</td>
+	<td>ANANYA GIRRAJ GARG .</td>
+	<td>10</td>
+	<td>27</td>
+	<td>15</td>
+	<td>7</td>
+	<td>NA</td>
+	<td>59</td>
+	</tr>
+	<tr>
+	<td>2013A7PS069G</td>
+	<td>RUNGTA ADITYA MANOJ .</td>
+	<td>9</td>
+	<td>37</td>
+	<td>19</td>
+	<td>7.5</td>
+	<td>NA</td>
+	<td>72.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS076G</td>
+	<td>VISHNU C RAMACHANDRAN .</td>
+	<td>9</td>
+	<td>25</td>
+	<td>11</td>
+	<td>6</td>
+	<td>NA</td>
+	<td>51</td>
+	</tr>
+	<tr>
+	<td>2013A7PS083G</td>
+	<td>AYUSH SHARMA .</td>
+	<td>10</td>
+	<td>45</td>
+	<td>25</td>
+	<td>13.5</td>
+	<td>NA</td>
+	<td>93.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS086G</td>
+	<td>SUKRITI TIWARI .</td>
+	<td>10</td>
+	<td>41</td>
+	<td>27</td>
+	<td>17</td>
+	<td>NA</td>
+	<td>95</td>
+	</tr>
+	<tr>
+	<td>2013A7PS113G</td>
+	<td>LAKDAWALA RUMANA JUZER</td>
+	<td>4</td>
+	<td>38</td>
+	<td>16</td>
+	<td>8</td>
+	<td>NA</td>
+	<td>66</td>
+	</tr>
+	<tr>
+	<td>2013A7PS126G</td>
+	<td>SREEHARI S .</td>
+	<td>10</td>
+	<td>43</td>
+	<td>26</td>
+	<td>15</td>
+	<td>NA</td>
+	<td>94</td>
+	</tr>
+	<tr>
+	<td>2013A7PS276G</td>
+	<td>SIDDHARTH MOHAN .</td>
+	<td>10</td>
+	<td>40</td>
+	<td>16</td>
+	<td>8.5</td>
+	<td>NA</td>
+	<td>74.5</td>
+	</tr>
+	<tr>
+	<td>2013A7PS810G</td>
+	<td>ABHISHEK TIWARI .</td>
+	<td>10</td>
+	<td>40</td>
+	<td>30</td>
+	<td>16</td>
+	<td>NA</td>
+	<td>96</td>
+	</tr>
+	<tr>
+	<td>2013B1A7895G</td>
+	<td>SHOURYA  AGARWAL .</td>
+	<td>10</td>
+	<td>45</td>
+	<td>19</td>
+	<td>9.5</td>
+	<td>NA</td>
+	<td>83.5</td>
+	</tr>
+	<tr>
+	<td>2013B1A7942G</td>
+	<td>ADITYA  SAXENA .</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>0</td>
+	</tr>
+	<tr>
+	<td>2013B2A7754G</td>
+	<td>GARVIT RAGHUVANSHI .</td>
+	<td>9.5</td>
+	<td>37</td>
+	<td>12</td>
+	<td>6.5</td>
+	<td>NA</td>
+	<td>65</td>
+	</tr>
+	<tr>
+	<td>2013B2A7866G</td>
+	<td>RAJAT  AGARWAL .</td>
+	<td>10</td>
+	<td>41</td>
+	<td>25</td>
+	<td>18</td>
+	<td>NA</td>
+	<td>94</td>
+	</tr>
+	<tr>
+	<td>2013B3A7439G</td>
+	<td>K ACHYUDH RAM .</td>
+	<td>10</td>
+	<td>45</td>
+	<td>19</td>
+	<td>14</td>
+	<td>NA</td>
+	<td>88</td>
+	</tr>
+	<tr>
+	<td>2013B3A7516G</td>
+	<td>GAURAV NARULA .</td>
+	<td>10</td>
+	<td>36</td>
+	<td>19</td>
+	<td>6</td>
+	<td>NA</td>
+	<td>71</td>
+	</tr>
+	<tr>
+	<td>2013B3A7530G</td>
+	<td>CHATURVEDI SHUBHAM KUNJBIHARI .</td>
+	<td>9.5</td>
+	<td>23</td>
+	<td>12</td>
+	<td>0</td>
+	<td>NA</td>
+	<td>44.5</td>
+	</tr>
+	<tr>
+	<td>2013B3A7574G</td>
+	<td>NAKADE KRUTARTH MILINDKUMAR .</td>
+	<td>10</td>
+	<td>18</td>
+	<td>18</td>
+	<td>0</td>
+	<td>NA</td>
+	<td>46</td>
+	</tr>
+	<tr>
+	<td>2013B4A7707G</td>
+	<td>NAMAN GUPTA .</td>
+	<td>8.5</td>
+	<td>37</td>
+	<td>9</td>
+	<td>5</td>
+	<td>NA</td>
+	<td>59.5</td>
+	</tr>
+	<tr>
+	<td>2013B4A7742G</td>
+	<td>UMANG RUSTAGI .</td>
+	<td>NA</td>
+	<td>15</td>
+	<td>9</td>
+	<td>9.5</td>
+	<td>NA</td>
+	<td>33.5</td>
+	</tr>
+	<tr>
+	<td>2013B4A7776G</td>
+	<td>APARAJITA HALDAR .</td>
+	<td>10</td>
+	<td>43</td>
+	<td>20</td>
+	<td>12.5</td>
+	<td>NA</td>
+	<td>85.5</td>
+	</tr>
+	<tr>
+	<td>2013B5A7665G</td>
+	<td>SHOBHIK BHADRARAY .</td>
+	<td>10</td>
+	<td>31</td>
+	<td>19</td>
+	<td>13</td>
+	<td>NA</td>
+	<td>73</td>
+	</tr>
+	<tr>
+	<td>2014A3A7217G</td>
+	<td>MADHU ADAV M J .</td>
+	<td>10</td>
+	<td>42</td>
+	<td>24</td>
+	<td>16</td>
+	<td>NA</td>
+	<td>92</td>
+	</tr>
+	<tr>
+	<td>2014A7PS012G</td>
+	<td>KISHORE K B</td>
+	<td>NA</td>
+	<td>3</td>
+	<td>0</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>3</td>
+	</tr>
+	<tr>
+	<td>2014A7PS014G</td>
+	<td>ROHAN GOEL .</td>
+	<td>10</td>
+	<td>39</td>
+	<td>24</td>
+	<td>12</td>
+	<td>NA</td>
+	<td>85</td>
+	</tr>
+	<tr>
+	<td>2014A7PS016G</td>
+	<td>PATEL PRIYANKA SUNIL .</td>
+	<td>10</td>
+	<td>40</td>
+	<td>14</td>
+	<td>12.5</td>
+	<td>NA</td>
+	<td>76.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS017G</td>
+	<td>RONAK JAIN .</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>0</td>
+	</tr>
+	<tr>
+	<td>2014A7PS021G</td>
+	<td>PRIYANK LODHA .</td>
+	<td>9</td>
+	<td>41</td>
+	<td>7</td>
+	<td>8.5</td>
+	<td>NA</td>
+	<td>65.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS025G</td>
+	<td>ABHIJEET PRATAP SINGH TOMAR .</td>
+	<td>8</td>
+	<td>24</td>
+	<td>14</td>
+	<td>3</td>
+	<td>NA</td>
+	<td>49</td>
+	</tr>
+	<tr>
+	<td>2014A7PS050G</td>
+	<td>DIVYANSH GUPTA .</td>
+	<td>NA</td>
+	<td>21</td>
+	<td>9</td>
+	<td>1.5</td>
+	<td>NA</td>
+	<td>31.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS065G</td>
+	<td>GOURAV GOEL .</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>0</td>
+	</tr>
+	<tr>
+	<td>2014A7PS068G</td>
+	<td>ISHANI GHOSE .</td>
+	<td>10</td>
+	<td>21</td>
+	<td>17</td>
+	<td>12</td>
+	<td>NA</td>
+	<td>60</td>
+	</tr>
+	<tr>
+	<td>2014A7PS070G</td>
+	<td>SIKCHI SAURABH  RADHESHYAM .</td>
+	<td>NA</td>
+	<td>27</td>
+	<td>1</td>
+	<td>2.5</td>
+	<td>NA</td>
+	<td>30.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS073G</td>
+	<td>YASH KARNAWAT .</td>
+	<td>10</td>
+	<td>40</td>
+	<td>23</td>
+	<td>8.5</td>
+	<td>NA</td>
+	<td>81.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS075G</td>
+	<td>PUNEETH SRINIVAS MOHAN SALADI .</td>
+	<td>10</td>
+	<td>37</td>
+	<td>14</td>
+	<td>11.5</td>
+	<td>NA</td>
+	<td>72.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS076G</td>
+	<td>SAKSHI SHARMA .</td>
+	<td>10</td>
+	<td>45</td>
+	<td>14</td>
+	<td>10</td>
+	<td>NA</td>
+	<td>79</td>
+	</tr>
+	<tr>
+	<td>2014A7PS085G</td>
+	<td>SHUBHAM AGARKAR .</td>
+	<td>10</td>
+	<td>36</td>
+	<td>27</td>
+	<td>10</td>
+	<td>NA</td>
+	<td>83</td>
+	</tr>
+	<tr>
+	<td>2014A7PS102G</td>
+	<td>VASSALLA ROUTRAY .</td>
+	<td>9.5</td>
+	<td>35</td>
+	<td>14</td>
+	<td>13.5</td>
+	<td>NA</td>
+	<td>72</td>
+	</tr>
+	<tr>
+	<td>2014A7PS105G</td>
+	<td>PATHIKRIT GHOSH .</td>
+	<td>10</td>
+	<td>43</td>
+	<td>30</td>
+	<td>15.5</td>
+	<td>NA</td>
+	<td>98.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS106G</td>
+	<td>AJAY YADAV .</td>
+	<td>9</td>
+	<td>26</td>
+	<td>18</td>
+	<td>4.5</td>
+	<td>NA</td>
+	<td>57.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS109G</td>
+	<td>SUHAIB SONI .</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>0</td>
+	</tr>
+	<tr>
+	<td>2014A7PS111G</td>
+	<td>JAYANTHI PRUDHVI TEJ .</td>
+	<td>9</td>
+	<td>25</td>
+	<td>16</td>
+	<td>4</td>
+	<td>NA</td>
+	<td>54</td>
+	</tr>
+	<tr>
+	<td>2014A7PS112G</td>
+	<td>SASWAT KUMAR ROUT .</td>
+	<td>10</td>
+	<td>43</td>
+	<td>14</td>
+	<td>2</td>
+	<td>NA</td>
+	<td>69</td>
+	</tr>
+	<tr>
+	<td>2014A7PS114G</td>
+	<td>RISHAB PARAKH .</td>
+	<td>10</td>
+	<td>38</td>
+	<td>25</td>
+	<td>15</td>
+	<td>NA</td>
+	<td>88</td>
+	</tr>
+	<tr>
+	<td>2014A7PS127G</td>
+	<td>KRATIKA CHANDRA .</td>
+	<td>10</td>
+	<td>42</td>
+	<td>23</td>
+	<td>14</td>
+	<td>NA</td>
+	<td>89</td>
+	</tr>
+	<tr>
+	<td>2014A7PS356G</td>
+	<td>PULKIT AGARWAL .</td>
+	<td>10</td>
+	<td>40</td>
+	<td>22</td>
+	<td>16</td>
+	<td>NA</td>
+	<td>88</td>
+	</tr>
+	<tr>
+	<td>2014A7PS403G</td>
+	<td>AMIT AGARWAL .</td>
+	<td>10</td>
+	<td>42</td>
+	<td>30</td>
+	<td>16</td>
+	<td>NA</td>
+	<td>98</td>
+	</tr>
+	<tr>
+	<td>2014A7PS688G</td>
+	<td>SAACHI GROVER .</td>
+	<td>10</td>
+	<td>45</td>
+	<td>19</td>
+	<td>15.5</td>
+	<td>NA</td>
+	<td>89.5</td>
+	</tr>
+	<tr>
+	<td>2014A7PS774G</td>
+	<td>SANGOL TEJAS .</td>
+	<td>9.5</td>
+	<td>42</td>
+	<td>20</td>
+	<td>11.5</td>
+	<td>NA</td>
+	<td>83</td>
+	</tr>
+	<tr>
+	<td>2014B1A7473G</td>
+	<td>ROHAN KUMAR .</td>
+	<td>8.5</td>
+	<td>12</td>
+	<td>10</td>
+	<td>7</td>
+	<td>NA</td>
+	<td>37.5</td>
+	</tr>
+	<tr>
+	<td>2014B4A7427G</td>
+	<td>ASHUTOSH SABOO .</td>
+	<td>10</td>
+	<td>44</td>
+	<td>13</td>
+	<td>11</td>
+	<td>NA</td>
+	<td>78</td>
+	</tr>
+	<tr>
+	<td>2014B4A7782G</td>
+	<td>MANU SARASWAT .</td>
+	<td>10</td>
+	<td>40</td>
+	<td>23</td>
+	<td>12.5</td>
+	<td>NA</td>
+	<td>85.5</td>
+	</tr>
+	<tr>
+	<td>2014B4A7914G</td>
+	<td>YASH PANDYA .</td>
+	<td>10</td>
+	<td>42</td>
+	<td>12</td>
+	<td>11</td>
+	<td>NA</td>
+	<td>75</td>
+	</tr>
+	</table>
+	
+	<table id="myTable" >
+	<tr class="header">
+		<th style="width:20%;">BITSID</th>
+		<th style="width:30%;">Statistics</th>
+		<th style="width:10%;">CT1(10)</th>
+		<th style="width:10%;">T1(50)</th>
+		<th style="width:10%;">T2(40)</th>
+		<th style="width:10%;">Quiz(20)</th>
+		<th style="width:10%;">Compre(80)</th>
+		<th style="width:10%;">Total(200)</th>
+	</tr>
+	<tr>
+		<td>--</td>
+		<td>Highest</td>
+		<td>10</td>
+		<td>45</td>
+		<td>30</td>
+		<td>18</td>
+		<td>NA</td>
+		<td>98.5</td>
+	</tr>
+	<tr>
+		<td>--</td>
+		<td>Average</td>
+		<td>9.58</td>
+		<td>34.54</td>
+		<td>16.96</td>
+		<td>9.54</td>
+		<td>NA</td>
+		<td>64.79</td>
+	</tr>
+	</table>
+
+	<script>
+	function myFunction() {
+	  var input, filter, table, tr, td, i;
+	  input = document.getElementById("myInput");
+	  filter = input.value.toUpperCase();
+	  table = document.getElementById("myTable");
+	  tr = table.getElementsByTagName("tr");
+	  for (i = 0; i < tr.length; i++) {
+		td = tr[i].getElementsByTagName("td")[0];
+		if (td) {
+		  if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			tr[i].style.display = "";
+		  } else {
+			tr[i].style.display = "none";
+		  }
+		}       
+	  }
+	}
+	var message = "Why do you want to see the code?";
+	function rtclickcheck(keyp){ 
+		if (navigator.appName == "Netscape" && keyp.which == 3){ 
+			alert(message); return false; 
+		}
+		if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2){
+			alert(message); return false;
+			} 
+		}
+		document.onmousedown = rtclickcheck;
+	</script>
+</body>
+</html>
